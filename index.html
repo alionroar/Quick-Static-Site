@@ -1,18 +1,140 @@
 <!DOCTYPE html>
+<!--
+Hello!
+Here are some notes:
+This site is purely static and contains simple components and design sections.
+There may certainly be parts of these documents that could be more concise.
+-->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Ali's Quick Static Site</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--
+    <link rel="stylesheet/less" type="text/css" href="/less/main.less" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+    -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900" rel="stylesheet">
   </head>
   <body>
     <header>
       <nav>
-        
+        <ul>
+          <li>H</li>
+          <li>E</li>
+          <li>L</li>
+          <li>L</li>
+          <li>O</li>
+        </ul>
       </nav>
     </header>
     <main>
+      <ul>
+        <li><a href="#components" class="btn">Components</a></li><br />
+        <li><a href="#designs" class="btn">Designs</a></li>
+      </ul>
+      <div id="components">
+        <h1> Here are some components I prepared earlier 😎 ...</h1>
+        <div id="forms">
+        <form id="greetingForm">
+          <p> Which greeting is your favourite?</p>
+          <label class="choose" id="greetingLabel">Take your pick:</label>
+          <select class="greeting-field" name="greetingField1" class="field">
+            <option value="Hello">Hello</option>
+            <option value="Howdy">Howdy</option>
+            <option value="Oh Hi Mark"> Oh hi Mark</option>
+          </select><br />
+          <p> Who do you say hi to?</p>
+          <label>Choose Two:</label>
+          <select class="greeting-field" name="greetingField2" class="field">
+            <option value="Friends & family only">Friends & Family Only</option>
+            <option value="My cat">My cat</option>
+            <option value="Everyone">Everyone</option>
+          </select><br />
+          <select class="greeting-field" name="greetingField3" class="field">
+            <option value="Friends & family only">Friends & Family Only</option>
+            <option value="My cat">My cat</option>
+            <option value="Everyone">Everyone</option>
+          </select><br />
+          <input name="saveGreeting" type="submit" value="SUBMIT" />
+        </form>
+
+        <form id="selectForm">
+          <p> Say hello 👋 </p>
+          <div>
+            <ul>
+              <li>
+                <label for="name"> Name </label>
+                <input type="text" class="short-input" id="name" placeholder="What do you go by?"/>
+              </li>
+              <li>
+                <label for="email"> Email </label>
+                <input type="text" class="short-input" id="email" placeholder="example@email.com"/>
+              </li>
+              <li><label for="message"> Message </label></li>
+              <li><input type="text" id="message" placeholder="Type your message here..."/></li>
+              <li><input name="submitMessage" type="submit" value="SUBMIT" /></li>
+            </ul>
+
+          </div>
+        </form>
+
+        <form id="contactForm">
+          <p> Say hello 👋 </p>
+          <div>
+            <label for="name"> Name </label>
+            <input type="text" id="name" placeholder="What do you go by?"/><br />
+            <label for="email"> Email </label>
+            <input type="text" id="email" placeholder="example@email.com"/><br />
+            <label for="message"> Message </label>
+            <input type="text" id="message" placeholder="Type your message here..."/><br />
+            <input name="submitMessage" type="submit" value="SUBMIT" />
+          </div>
+        </form>
+
+        <form id="greetingForm">
+          <p> Which greeting is your favourite?</p>
+          <label class="choose" id="greetingLabel">Take your pick:</label>
+          <select id="greetingField1" name="greetingField1" class="field">
+            <option value="Hello">Hello</option>
+            <option value="Howdy">Howdy</option>
+            <option value="Oh Hi Mark"> Oh hi Mark</option>
+          </select><br />
+          <input name="saveGreeting" type="submit" value="Submit" />
+        </form>
+        </div>
+      </div>
+
+      <div id="designs">
+        <h1> Here are some designs I prepared earlier 😮 ...</h1>
+        <h2> ☝🏻 Heads up, there aren't many and some are a little lame.</h2>
+        <div class="images">
+          <img src="img/iPhone X1.png" class="QAG-img">
+          <img src="img/iPhone X.png" class="QAG-img">
+          <img src="img/iPhone X2.png" class="QAG-img">
+        </div>
+        <p>
+          wfponwopefnpwe
+        </p>
+        <div class="images">
+          <img src="img/stateOfMind.png" class="SOM-img">
+          <img src="img/stateOfMind2.png" class="SOM-img">
+          <img src="img/stateOfMind3.png" class="SOM-img">
+        </div>
+        <p>
+          wfponwopefnpwe
+        </p>
+        <div class="images">
+          <img src="img/Artboard.png" class="SWT-img">
+          <img src="img/sweatGreenPackage4.png" class="SWT-img"><br />
+          <img src="img/Artboard2.png" class="SWT-img">
+          <img src="img/sweatBluePackage3.png" class="SWT-img"><br />
+          <img src="img/Artboard3.png" class="SWT-img">
+          <img src="img/sweatYellowPackage.png" class="SWT-img">
+        </div>
+
+      </div>
 
     </main>
   </body>
