@@ -54,11 +54,19 @@ main > ul {
 
 form {
   width: 40%;
-  padding: .5rem 2rem 1rem 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   border-radius: 2rem;
   background: rgba(255, 255, 255, .1);
   border: solid 1px;
   margin-bottom: 1rem;
+}
+
+form ul {
+  margin: 0;
+}
+
+form li {
+  margin-top: 1rem;
 }
 
 #forms {
@@ -84,12 +92,12 @@ input[type="submit"]:hover {
   color:#E50000;
 }
 
-label {
-  padding-right: 1rem;
+input[type="submit"] {
+  width: fit-content;
 }
 
-select, input[type="text"] {
-  margin: 1rem 0rem 1rem 0rem;
+label {
+  padding-right: 1rem;
 }
 
 input[type=text]:focus, select:focus {
@@ -106,8 +114,9 @@ input[type=text]:focus, select:focus {
   margin-right: 1rem;
 }
 
-#contactForm {
+#largeForm {
   width: 87%;
+  background-image:url("img/sweep-vermouth.gif");
 }
 
 #message {
@@ -123,12 +132,15 @@ input[type=text]:focus, select:focus {
 .QAG-img {
   width: 20vw;
 }
+
 .SOM-img {
   width: 40vw;
 }
+
 .SWT-img {
   width: 30vw;
 }
+
 #images {
   display: flex;
   flex-wrap: wrap;
