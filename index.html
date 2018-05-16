@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-<!--
-Hello!
-Here are some notes:
-This site is purely static and contains simple components and design sections.
-There may certainly be parts of these documents that could be more concise.
--->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -38,99 +32,176 @@ There may certainly be parts of these documents that could be more concise.
         <h1> Here are some components I prepared earlier 😎 ...</h1>
         <div id="forms">
 
-        <form id="greetingForm">
-          <ul>
-            <li>
-                <p> Which greeting is your favourite?</p>
-            </li>
-            <li><label class="choose" id="greetingLabel">Take your pick:</label></li>
-            <li>
-              <select class="greeting-field" name="greetingField1" class="field">
-                <option value="Hello">Hello</option>
-                <option value="Howdy">Howdy</option>
-                <option value="Oh Hi Mark"> Oh hi Mark</option>
-              </select>
-            </li>
-            <li>
-                <p> Who do you say hi to?</p>
-            </li>
-            <li>
-                <label>Choose Two:</label>
-            </li>
-            <li>
-              <select class="greeting-field" name="greetingField2" class="field">
-                <option value="Friends & family only">Friends & Family Only</option>
-                <option value="My cat">My cat</option>
-                <option value="Everyone">Everyone</option>
-              </select>
-            </li>
-            <li>
-              <select class="greeting-field" name="greetingField3" class="field">
-                <option value="Friends & family only">Friends & Family Only</option>
-                <option value="My cat">My cat</option>
-                <option value="Everyone">Everyone</option>
-              </select>
-            </li>
-            <li>
-              <input name="saveGreeting" type="submit" value="SUBMIT" />
-            </li>
-          </ul>
-        </form>
-
-        <form id="contactForm">
-          <p> Say hello 👋 </p>
+          <form id="greetingForm">
             <ul>
               <li>
-                <label for="name"> Name </label>
-                <input type="text" class="short-input" id="name" placeholder="What do you go by?"/>
+                  <h2 class="form-heading"> Which greeting is your favourite?</h2>
+              </li>
+              <li><label class="choose" id="greetingLabel">Take your pick:</label></li>
+              <li>
+                <select class="greeting-field" name="greetingField1" class="field">
+                  <option value="Hello">Hello</option>
+                  <option value="Howdy">Howdy</option>
+                  <option value="Oh Hi Mark"> Oh hi Mark</option>
+                </select>
               </li>
               <li>
-                <label for="email"> Email </label>
-                <input type="text" class="short-input" id="email" placeholder="example@email.com"/>
+                  <h2 class="form-heading"> Who do you say hi to?</h2>
               </li>
-              <li><label for="message"> Message </label></li>
-              <li><input type="text" id="message" placeholder="Type your message here..."/></li>
-              <li><input name="submitMessage" type="submit" value="SUBMIT" /></li>
+              <li>
+                  <label>Take your pick:</label>
+              </li>
+              <li>
+                <select class="greeting-field" name="greetingField2" class="field">
+                  <option value="Friends & family only">Friends & Family Only</option>
+                  <option value="My cat">My cat</option>
+                  <option value="Everyone">Everyone</option>
+                </select>
+              </li>
+              <li>
+                <input name="saveGreeting" type="submit" value="SUBMIT" />
+              </li>
             </ul>
-        </form>
+          </form>
 
-        <form id="largeForm">
-          <p> Say hello 👋 </p>
-          <div>
-            <label for="name"> Name </label>
-            <input type="text" id="name" placeholder="What do you go by?"/><br />
-            <label for="email"> Email </label>
-            <input type="text" id="email" placeholder="example@email.com"/><br />
-            <label for="message"> Message </label>
-            <input type="text" id="message" placeholder="Type your message here..."/><br />
-            <input name="submitMessage" type="submit" value="SUBMIT" />
-          </div>
-        </form>
+          <form id="contactForm">
+            <h2 class="form-heading"> Say hello 👋 </h2>
+              <ul>
+                <li>
+                  <label for="name"> Name </label>
+                  <input type="text" class="short-input" id="name" placeholder="What do you go by?"/>
+                </li>
+                <li>
+                  <label for="email"> Email </label>
+                  <input type="text" class="short-input" id="email" placeholder="example@email.com"/>
+                </li>
+                <li><label for="message"> Message </label></li>
+                <li><input type="text" id="message" placeholder="Type your message here..."/></li>
+                <li><input name="submitMessage" type="submit" value="SUBMIT" /></li>
+              </ul>
+          </form>
 
-        <form id="greetingForm">
-          <p> Which greeting is your favourite?</p>
-          <label class="choose" id="greetingLabel">Take your pick:</label>
-          <select id="greetingField1" name="greetingField1" class="field">
-            <option value="Hello">Hello</option>
-            <option value="Howdy">Howdy</option>
-            <option value="Oh Hi Mark"> Oh hi Mark</option>
-          </select><br />
-          <input name="saveGreeting" type="submit" value="Submit" />
-        </form>
+          <form id="largeForm" class="bg-img">
+            <div id="bg-img"><h2> Choose Your Seating 🕺 </h2></div>
+              <ul>
+                <li>
+                  <p>
+                    Table Setting
+                  </p>
+                </li>
+                <li>
+                  <div id="stage">STAGE</div>
+                  <div class="section">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                  </div>
+                  <div class="section">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                  </div>
+                  <div class="section">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                  </div>
+                  <div class="section">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                  </div>
+                  <div class="section">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                  </div>
+                </li>
+                <li>
+                  <p>
+                    (max 2 tables per booking)
+                  </p>
+                </li>
+                <li><input name="submitMessage" type="submit" value="BOOK" /></li><br />
+              </ul>
+          </form>
+
+          <!-- <form id="greetingForm">
+            <p> Which greeting is your favourite?</p>
+            <label class="choose" id="greetingLabel">Take your pick:</label>
+            <select id="greetingField1" name="greetingField1" class="field">
+              <option value="Hello">Hello</option>
+              <option value="Howdy">Howdy</option>
+              <option value="Oh Hi Mark"> Oh hi Mark</option>
+            </select><br />
+            <input name="saveGreeting" type="submit" value="Submit" />
+          </form> -->
         </div>
+      </div>
       </div>
 
       <div id="designs">
         <h1> Here are some designs I prepared earlier 😮 ...</h1>
-        <h2> ☝🏻 Heads up, there aren't many and some are a little lame.</h2>
-        <div class="images">
-          <img src="img/iPhone X1.png" class="QAG-img">
-          <img src="img/iPhone X.png" class="QAG-img">
-          <img src="img/iPhone X2.png" class="QAG-img">
+        <h2> ☝🏻 Heads up, there aren't many and some are a little lame. <a href="https://www.behance.net/ali20_4e13e">(Behance)</a></h2>
+        <h2> Queensland Art Gallery Micro Design Solution </h2>
+        <div class="concepts">
+          <div class="images">
+            <img src="img/iPhone X1.png" class="QAG-img">
+            <img src="img/iPhone X.png" class="QAG-img">
+            <img src="img/iPhone X2.png" class="QAG-img">
+            <img src="img/iPhone X3.png" class="QAG-img">
+          </div>
+          <p>
+            Design Concept
+            The final design concept for this brief is an app which enables
+            QAG visitors to post interpretations of artwork as well as inspirational
+            sketches based from the art. It will present a collection of the interpretations
+            and inspirations posted by other visitors as well as ‘picks of the month’ by the
+            artist and gallery for those artworks. <br /><br />
+
+            This concept is built to satisfy the specific needs and challenge existing
+            attitudes of the teen and young adult visitor mode. Its design interface is
+            participatory and exploratory in its interface navigation and its features stem
+            from the effective technologies and strategies of current design products.<br /><br />
+
+            Additional Features of this app include:<br /><br />
+
+            A “My interpretations/Inspirations” profile for each visitor which collates the
+            submissions of the individual user to look back on after their visit. This allows
+            visitors to have a keepsake and memory of their gallery experience. <br /><br />
+
+            A “collective” submission where users have a given sentence and add their own verb,
+            adjective and noun. The submission will be presented to visitors as random selection
+            of people’s words. This further strengthens the sense of the collective mind and
+            the social network of the gallery. <br /><br />
+
+            Location based bubbles whereby the submissions of visitors nearest to the
+            user appear on the user’s screen again facilitates a closer connection between
+            people within the gallery environment.
+
+          </p>
         </div>
-        <p>
-          wfponwopefnpwe
-        </p>
+        <h2> Queensland Art Gallery Micro Design Solution </h2>
         <div class="images">
           <img src="img/stateOfMind.png" class="SOM-img">
           <img src="img/stateOfMind2.png" class="SOM-img">
@@ -139,15 +210,6 @@ There may certainly be parts of these documents that could be more concise.
         <p>
           wfponwopefnpwe
         </p>
-        <div class="images">
-          <img src="img/Artboard.png" class="SWT-img">
-          <img src="img/sweatGreenPackage4.png" class="SWT-img"><br />
-          <img src="img/Artboard2.png" class="SWT-img">
-          <img src="img/sweatBluePackage3.png" class="SWT-img"><br />
-          <img src="img/Artboard3.png" class="SWT-img">
-          <img src="img/sweatYellowPackage.png" class="SWT-img">
-        </div>
-
       </div>
 
     </main>

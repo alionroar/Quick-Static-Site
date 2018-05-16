@@ -42,6 +42,10 @@ h1, h2 {
   padding-bottom: 5rem;
 }
 
+.form-heading {
+  padding-bottom: 0;
+}
+
 #components, #designs {
   height: 200vh;
   padding: 2rem;
@@ -116,12 +120,68 @@ input[type=text]:focus, select:focus {
 
 #largeForm {
   width: 87%;
-  background-image:url("img/sweep-vermouth.gif");
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+
+  @media only screen and (max-width: 730px) {
+      flex-wrap: wrap;
+  }
+}
+
+#largeForm ul {
+  margin: 1rem;
+  width: 50%;
+}
+
+#largeForm li {
+  width: 90%;
+}
+
+#bg-img {
+  //used gif from: https://dribbble.com/shots/4589411-Sweep-Vermouth;
+  background:url("../img/sweep-vermouth.gif");
+  background-size: cover;
+  width: 53%;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  margin-right: 2rem;
+  padding-left: 2rem;
 }
 
 #message {
   width: 80%;
   height:5rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#stage {
+  background-color: #141442;
+  height: 1.7rem;
+  margin-bottom: .5rem;
+  border-radius: 1rem;
+  text-align: center;
+  letter-spacing: .2rem;
+  padding-top:.4rem;
+  font-size: 15px;
+}
+
+
+.seat {
+  height: 20px;
+  width: 20px;
+  border:solid 2px #141442;
+  border-radius: 50%;
+  margin-bottom: .5rem;
+}
+
+.seat:hover {
+  background-color: #141442;
 }
 
 .short-input{
@@ -141,15 +201,25 @@ input[type=text]:focus, select:focus {
   width: 30vw;
 }
 
-#images {
+.concepts {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  justify-content: space-between;
+  width: 90%;
 }
 
+#images {
+  flex-wrap: wrap;
+  width: 50vw;
+}
 option {
   background: none;
 }
+
 form ul {
   padding-left: 0;
+}
+
+#designs p {
+  width: 70vw;
+  line-height: 2rem;
 }
