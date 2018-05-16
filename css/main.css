@@ -195,6 +195,7 @@ input[type=text]:focus, select:focus {
 
 .SOM-img {
   width: 40vw;
+  align-self: center;
 }
 
 .SWT-img {
@@ -222,4 +223,13 @@ form ul {
 #designs p {
   width: 70vw;
   line-height: 2rem;
+}
+
+#img-text {
+  display: flex;
+}
+
+#img-text p {
+  width: 40vw;
+  padding-left: 4rem;
 }
